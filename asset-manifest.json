@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Machstatz/static/css/main.a79bb87d.chunk.css",
+    "main.js": "/Machstatz/static/js/main.1cbcf242.chunk.js",
+    "main.js.map": "/Machstatz/static/js/main.1cbcf242.chunk.js.map",
+    "runtime-main.js": "/Machstatz/static/js/runtime-main.1ec8498e.js",
+    "runtime-main.js.map": "/Machstatz/static/js/runtime-main.1ec8498e.js.map",
+    "static/js/2.a288566d.chunk.js": "/Machstatz/static/js/2.a288566d.chunk.js",
+    "static/js/2.a288566d.chunk.js.map": "/Machstatz/static/js/2.a288566d.chunk.js.map",
+    "static/js/3.e7cd5230.chunk.js": "/Machstatz/static/js/3.e7cd5230.chunk.js",
+    "static/js/3.e7cd5230.chunk.js.map": "/Machstatz/static/js/3.e7cd5230.chunk.js.map",
+    "index.html": "/Machstatz/index.html",
+    "static/css/main.a79bb87d.chunk.css.map": "/Machstatz/static/css/main.a79bb87d.chunk.css.map",
+    "static/js/2.a288566d.chunk.js.LICENSE.txt": "/Machstatz/static/js/2.a288566d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1ec8498e.js",
+    "static/js/2.a288566d.chunk.js",
+    "static/css/main.a79bb87d.chunk.css",
+    "static/js/main.1cbcf242.chunk.js"
+  ]
+}
