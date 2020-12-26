@@ -1,0 +1,83 @@
+.grid-card{
+  width: 15%;
+  height: 200px;
+  border: 1px solid #bbb;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 20px;
+  position: relative;
+  margin-right: 20px;
+  box-shadow: -2px -2px 5px;
+}
+
+/* .grid-card:hover{
+  background-color: lightblue ;
+  color: white;
+  border-color: lightblue;
+} */
+
+.list-card{
+  width: 100%;
+  height: 60px;
+  border: 1px solid #bbb;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  border-radius: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  padding-left: 20px;
+  position: relative;
+  box-shadow: -2px -2px 5px;
+}
+
+/* .list-card:hover{
+  background-color: lightblue ;
+  color: white;
+  border-color: lightblue;
+} */
+
+.floating-add-icon {
+  font-size: 20px;
+  position: absolute;
+  background-color: chartreuse;
+  top: -5px;
+  right: -5px;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 20px;
+}
+
+.floating-remove-icon {
+  font-size: 20px;
+  line-height: 20px;
+  position: absolute;
+  background-color: red;
+  top: -5px;
+  right: -5px;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.floating-remove-icon:hover{
+  color: white;
+} 
+
+.floating-add-icon:hover{
+  color: white;
+} 

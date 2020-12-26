@@ -1,0 +1,128 @@
+.home-component {
+  width: 100%;
+}
+
+.home-tab-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 60px;
+  width: 100%;
+  background-color: #2196f3;
+  margin-top: 5px;
+}
+
+.home-tab-option {
+  width: 200px;
+  height: 40px;
+  margin-left: 20px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.content-area {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  flex-wrap: wrap;
+  /* justify-content: space-evenly; */
+  padding: 10px;
+  height: 70vh;
+  overflow: auto;
+  margin-top: 2vh;
+}
+
+.content-area::-webkit-scrollbar {
+  width: 12px;
+}
+
+.content-area::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+.content-area::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+.help-row {
+  width: 90%;
+  margin: auto;
+  height: 50px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-part {
+  display: flex;
+  flex-direction: row;
+}
+
+.right-part {
+  display: flex;
+  flex-direction: row;
+}
+
+.mark-buttons {
+  font-size: 16px;
+  text-decoration: underline;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #2196f3;
+}
+
+.sort-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 150px;
+}
+
+.icon-type-selector {
+  width: 60px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 1px solid #666;
+  border-radius: 5px;
+}
+
+.horizontal-bar {
+  height: 25px;
+  border-left: 1px solid #666;
+}
+
+.favourite-card {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #bbb;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-right: 20px;
+  box-shadow: 5px 5px 10px;
+}
+/* 
+.favourite-card:hover {
+  transform: scaleX(1.2);
+} */
+
+
+.pointer-class {
+  cursor: pointer;
+}
